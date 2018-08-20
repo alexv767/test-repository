@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,7 +18,7 @@ import java.io.File;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
-public class MyFirstClass {
+public class myLitecartLogin {
     private WebDriver driver;
     private WebDriverWait wait;
     private int i;
@@ -28,18 +29,18 @@ public class MyFirstClass {
         //driver = new InternetExplorerDriver();
         //driver = new FirefoxDriver();
 
-        FirefoxOptions options = new FirefoxOptions().setLegacy(true);
+        //FirefoxOptions options = new FirefoxOptions().setLegacy(true);
+        FirefoxOptions options = new FirefoxOptions();
         //WebDriver driver = new FirefoxDriver(options);
 
         //FirefoxOptions options = new FirefoxOptions();
         //options.setBinary(new FirefoxBinary(new File("c:\\Program Files (x86)\\Nightly\\firefox.exe")));
-        options.setBinary(new FirefoxBinary(new File("C:\\Users\\A\\AppData\\Local\\Mozilla Firefox45ESR\\firefox.exe")));
+        //options.setBinary(new FirefoxBinary(new File("C:\\Users\\A\\AppData\\Local\\Mozilla Firefox45ESR\\firefox.exe")));
+        options.setBinary(new FirefoxBinary(new File("C:\\Program Files\\Firefox Nightly63\\firefox.exe")));
         // C:\Users\A\AppData\Local\Mozilla Firefox45ESR
+        // C:\Program Files\Firefox Nightly63
         driver = new FirefoxDriver(options);
 
-        //DesiredCapabilities caps = new DesiredCapabilities();
-        //caps.setCapability(FirefoxDriver.MARIONETTE, false);
-        //driver = new FirefoxDriver(caps);
 
         wait = new WebDriverWait(driver, 20);
     }
@@ -47,12 +48,11 @@ public class MyFirstClass {
     @Test
     public void myFirstTest() {
 
-        //WebDriver driver = new RemoteWebDriver("http://localhost:9515", DesiredCapabilities.chrome());
+        driver.get("http://localhost/lifecart/admin/");
 
-        driver.get("http://www.google.com");
-
-        driver.findElement(By.name("q")).sendKeys("webdriver");
-        driver.findElement(By.name("q")).click();
+        driver.findElement(By.name("username")).sendKeys("admin");
+        driver.findElement(By.name("password")).sendKeys("admin");
+        driver.findElement(By.name("login")).click();
 
         i = 1; // just for breakpoint :)
     }
@@ -62,5 +62,6 @@ public class MyFirstClass {
         driver.quit();
         driver = null;
     }
+
 
 }
