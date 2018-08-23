@@ -40,7 +40,7 @@ public class myLitecartMenu {
     @Test
     public void myFirstTest() {
 
-        driver.get("http://localhost/lifecart/admin/");
+        driver.get("http://localhost/litecart/admin/");
 
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
@@ -87,7 +87,7 @@ public class myLitecartMenu {
                 menuitem2 = menuitems2.get(m);
 
                 menuitem2.click();
-                
+
                 assertTrue(driver.findElements(By.tagName("h1")).size()!= 0);
 
                 i = 1; // just for breakpoint
