@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -29,6 +31,9 @@ public class myLitecartStickers {
     @Before
     public void start() {
         driver = new ChromeDriver();
+        //driver = new InternetExplorerDriver();
+        //driver = new FirefoxDriver();
+
         wait = new WebDriverWait(driver, 20);
     }
 
