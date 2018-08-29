@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35fe3d24-f68f-420e-9523-87fe6993db7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandomTEST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartLogin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,34 +45,37 @@
     <session id="1423563357">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.39" value="2" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="3" />
+          <entry key="project.open.time.43" value="3" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -81,15 +83,15 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="3857" />
-          <entry key="txt" value="244" />
+          <entry key="java" value="5839" />
+          <entry key="txt" value="360" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3857" />
-          <entry key="PLAIN_TEXT" value="261" />
+          <entry key="JAVA" value="5839" />
+          <entry key="PLAIN_TEXT" value="377" />
         </counts>
       </usages-collector>
     </session>
@@ -97,58 +99,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductProperty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="82" column="91" selection-start-line="82" selection-start-column="91" selection-end-line="82" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="28" column="30" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="56" column="40" selection-start-line="50" selection-start-column="8" selection-end-line="56" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="59" column="59" selection-start-line="58" selection-start-column="12" selection-end-line="59" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartStickers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="47" selection-start-line="44" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandomTEST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="1768">
+              <caret line="117" column="107" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,6 +192,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prodPageregPriceColor</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -516,6 +508,10 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartHomework09.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartLineItemProperty.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductProperty.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandomTEST.java" />
       </list>
     </option>
   </component>
@@ -526,17 +522,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="232" />
-    <option name="y" value="7" />
-    <option name="width" value="1533" />
-    <option name="height" value="1013" />
+    <option name="x" value="5" />
+    <option name="y" value="5" />
+    <option name="width" value="1909" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -574,12 +570,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535396292182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535576892411" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -601,8 +597,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.myLitecartCountriesAndZones">
-    <configuration name="MyFirstClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TimeAndRandomTEST">
+    <configuration name="TimeAndRandomTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-example_test" />
       <extension name="coverage">
         <pattern>
@@ -611,7 +607,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.MyFirstClass" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.TimeAndRandomTEST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -644,7 +640,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myLitecartMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="myLitecartProductProperty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-example_test" />
       <extension name="coverage">
         <pattern>
@@ -653,7 +649,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.myLitecartMenu" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.myLitecartProductProperty" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -673,19 +669,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyFirstClass" />
       <item itemvalue="JUnit.myLitecartLogin" />
-      <item itemvalue="JUnit.myLitecartMenu" />
       <item itemvalue="JUnit.myLitecartStickers" />
       <item itemvalue="JUnit.myLitecartCountriesAndZones" />
+      <item itemvalue="JUnit.myLitecartProductProperty" />
+      <item itemvalue="JUnit.TimeAndRandomTEST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeAndRandomTEST" />
+        <item itemvalue="JUnit.myLitecartProductProperty" />
         <item itemvalue="JUnit.myLitecartCountriesAndZones" />
         <item itemvalue="JUnit.myLitecartLogin" />
         <item itemvalue="JUnit.myLitecartStickers" />
-        <item itemvalue="JUnit.myLitecartMenu" />
-        <item itemvalue="JUnit.MyFirstClass" />
       </list>
     </recent_temporary>
   </component>
@@ -742,39 +738,53 @@
       <option name="project" value="LOCAL" />
       <updated>1535303098690</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Countries and Geo Zones  homework.">
+      <created>1535396352407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535396352407</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Product properties (not completed yet).&#10;(IE problem, rgb/rgba)">
+      <created>1535494013127</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1535494013127</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 19h 58m 42s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.29 at 22h 45m 58s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 19h 59m 41s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.29 at 23h 36m 18s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 20h 01m 58s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.29 at 23h 37m 26s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 20h 05m 11s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.29 at 23h 56m 43s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 20h 09m 15s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.29 at 23h 56m 56s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 20h 33m 16s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.29 at 23h 57m 55s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 21h 51m 02s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.29 at 23h 59m 14s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 21h 52m 36s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.30 at 00h 00m 20s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 21h 55m 16s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.30 at 00h 00m 55s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartCountriesAndZones - 2018.08.27 at 21h 57m 45s.xml">
-      <configuration name="myLitecartCountriesAndZones" configurationId="JUnit" />
+    <history-entry file="TimeAndRandomTEST - 2018.08.30 at 00h 02m 47s.xml">
+      <configuration name="TimeAndRandomTEST" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -787,25 +797,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="232" y="7" width="1533" height="1013" extended-state="0" />
-    <editor active="true" />
+    <frame x="5" y="5" width="1909" height="1025" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29395792" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24553813" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.3529412" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.24318182" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.24215247" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.12569833" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32906976" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.33409092" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.24887893" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.29372197" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32956153" />
@@ -814,7 +823,7 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49528936" visible="true" weight="0.021045486" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49528936" visible="true" weight="0.01676582" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24983256" />
@@ -841,7 +850,9 @@
     <MESSAGE value="small changes (@litecart&quot; name only)" />
     <MESSAGE value="Add class to Check Ducks stickers." />
     <MESSAGE value="Add class to Check Ducks stickers + OTHER BROWSERS." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class to Check Ducks stickers + OTHER BROWSERS." />
+    <MESSAGE value="Countries and Geo Zones  homework." />
+    <MESSAGE value="Product properties (not completed yet).&#10;(IE problem, rgb/rgba)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product properties (not completed yet).&#10;(IE problem, rgb/rgba)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -870,6 +881,24 @@
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductProperty.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductProperty.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandomTEST.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -878,16 +907,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="30" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartLineItemProperty.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -912,6 +932,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="47" selection-start-line="44" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="117" column="107" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -949,10 +979,41 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="697">
+          <caret line="82" column="91" selection-start-line="82" selection-start-column="91" selection-end-line="82" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="30" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="7" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandomTEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
