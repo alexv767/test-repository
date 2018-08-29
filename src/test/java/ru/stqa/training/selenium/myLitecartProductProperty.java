@@ -177,7 +177,8 @@ public class myLitecartProductProperty {
         intColorB = Integer.parseInt(stringColor[2]);
 
         // Г) акционная жирная и красная
-        assertTrue(prodPageCampaignPriceBold.equals("700"));                        // bold = "700"
+        //assertTrue(prodPageCampaignPriceBold.equals("700"));                        // bold = "700"
+        assertTrue(Integer.parseInt(prodPageCampaignPriceBold) >= 700);     // bold = "700" or "900" for IE
         assertTrue(intColorR > 0 && intColorG == 0 && intColorB == 0);      //    "204, 0, 0, 1"   Red
 
 
