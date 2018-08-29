@@ -15,17 +15,31 @@ import java.util.List;
 
 import static org.junit.Assert.assertTrue;
 
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
 public class myLitecartProductProperty {
     private WebDriver driver;
     private WebDriverWait wait;
+    private int IE = 0;
+    private String browserName, browserVersion;
+    private Capabilities caps;
 
     @Before
     public void start() {
         driver = new ChromeDriver();
-        //driver = new InternetExplorerDriver();
         //driver = new FirefoxDriver();
+        //driver = new InternetExplorerDriver();
+
+        //make sure have correct import statements - I had to add these
+        //WebDriver driver = new FirefoxDriver();
+        caps = ((RemoteWebDriver) driver).getCapabilities();
+        browserName = caps.getBrowserName();
+        browserVersion = caps.getVersion();
+        //System.out.println(browserName+" "+browserVersion);
 
         wait = new WebDriverWait(driver, 20);
+
     }
 
     @Test
@@ -61,8 +75,7 @@ public class myLitecartProductProperty {
         regPriceColor = regPriceColor1.substring(index+1, regPriceColor1.length()-1);
 
         regPriceLineThrough = regularPriceMain.getCssValue("text-decoration-line");   // "line-through"
-
-
+        if (browserName.equals("internet explorer")) regPriceLineThrough = regularPriceMain.getCssValue("text-decoration");  // for IE only
 
         regPriceSize = regularPriceMain.getCssValue("font-size"); // smaller
 
@@ -131,6 +144,8 @@ public class myLitecartProductProperty {
         prodPageRegPriceColor = prodPageRegPriceColor1.substring(index+1, prodPageRegPriceColor1.length()-1);
 
         prodPageRegPriceLineThrough = prodPageRegPrice.getCssValue("text-decoration-line");   // "line-through"
+        if (browserName.equals("internet explorer")) prodPageRegPriceLineThrough = prodPageRegPrice.getCssValue("text-decoration");  // for IE only
+
         prodPageRegPriceSize = prodPageRegPrice.getCssValue("font-size"); // smaller
 
         prodPageCampaignPriceColor1 = prodPageCampPrice.getCssValue("color"); // red
@@ -167,7 +182,6 @@ public class myLitecartProductProperty {
 
 
         bp = 1; // just for breakpoint
-
 
     }
 

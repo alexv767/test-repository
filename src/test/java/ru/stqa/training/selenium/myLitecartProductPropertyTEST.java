@@ -24,6 +24,21 @@ public class myLitecartProductPropertyTEST {
         //driver = new FirefoxDriver();
 
         wait = new WebDriverWait(driver, 20);
+
+/*
+    //make sure have correct import statements - I had to add these
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+WebDriver driver = new FirefoxDriver();
+
+Capabilities caps = ((RemoteWebDriver) driver).getCapabilities();
+String browserName = caps.getBrowserName();
+String browserVersion = caps.getVersion();
+System.out.println(browserName+" "+browserVersion);
+
+
+  */
     }
 
     @Test
