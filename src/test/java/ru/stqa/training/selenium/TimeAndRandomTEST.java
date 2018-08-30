@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -24,64 +25,42 @@ public class TimeAndRandomTEST {
 
     @Before
     public void start() {
-        //driver = new ChromeDriver();
+        driver = new ChromeDriver();
         //driver = new InternetExplorerDriver();
         //driver = new FirefoxDriver();
-
-        FirefoxOptions options = new FirefoxOptions().setLegacy(true);
-        //WebDriver driver = new FirefoxDriver(options);
-
-        //FirefoxOptions options = new FirefoxOptions();
-        //options.setBinary(new FirefoxBinary(new File("c:\\Program Files (x86)\\Nightly\\firefox.exe")));
-        options.setBinary(new FirefoxBinary(new File("C:\\Users\\A\\AppData\\Local\\Mozilla Firefox45ESR\\firefox.exe")));
-        // C:\Users\A\AppData\Local\Mozilla Firefox45ESR
-        driver = new FirefoxDriver(options);
-
-        //DesiredCapabilities caps = new DesiredCapabilities();
-        //caps.setCapability(FirefoxDriver.MARIONETTE, false);
-        //driver = new FirefoxDriver(caps);
 
         wait = new WebDriverWait(driver, 20);
     }
 
     @Test
     public void myFirstTest() {
-
-        //WebDriver driver = new RemoteWebDriver("http://localhost:9515", DesiredCapabilities.chrome());
-
-        driver.get("http://www.google.com");
-//
-//        driver.findElement(By.name("q")).sendKeys("webdriver");
-//        driver.findElement(By.name("q")).click();
-//
-//        i = 1; // just for breakpoint :)
-
-
         int bp;
-
         int min=1, max = 1999999999;
 
+        driver.get("http://www.google.com");
+
         // 1) create a java calendar instance
-        Calendar calendar = Calendar.getInstance();
+        ///Calendar calendar = Calendar.getInstance();
 
         // 2) get a java.util.Date from the calendar instance.
 //    this date will represent the current instant, or "now".
-        java.util.Date now = calendar.getTime();
+        ///java.util.Date now = calendar.getTime();
 
         // 3) a java current time (now) instance
-        java.sql.Timestamp currentTimestamp = new java.sql.Timestamp(now.getTime());
-        Clock clock = Clock.systemUTC();
+        ///java.sql.Timestamp currentTimestamp = new java.sql.Timestamp(now.getTime());
+        ///Clock clock = Clock.systemUTC();
         //String str = (String) clock.instant();
-        Instant instant = clock.instant();
+        ///Instant instant = clock.instant();
 
-        Long instant1 = clock.millis();
+        ///Long instant1 = clock.millis();
 
+        //int min=1, max = 1999999999;
         // Инициализируем генератор
         Long sss = System.currentTimeMillis();
         Random rnd = new Random(System.currentTimeMillis());
         // Получаем случайное число в диапазоне от min до max (включительно)
-        int number = min + rnd.nextInt(max - min + 1);
-
+        Integer randi = (min + rnd.nextInt(max - min + 1));
+        String randStr = randi.toString();
         // Функция rnd.nextInt(limit) возвращает число от нуля (включительно) до limit (не включая limit).
 
 
