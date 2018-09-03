@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35fe3d24-f68f-420e-9523-87fe6993db7b" name="Default Changelist" comment="Bold price error fix,">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java-example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java-example_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java-example_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartShopAccount.java" afterDir="false" />
+    <list default="true" id="35fe3d24-f68f-420e-9523-87fe6993db7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartNewProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/java-example_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java-example_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandomTEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandomTEST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -102,51 +98,72 @@
     <session id="-548031425">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="class" value="1" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1479" />
+          <entry key="java" value="4903" />
+          <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1479" />
+          <entry key="JAVA" value="4903" />
+          <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductProperty.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartNewProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="184" selection-start-line="184" selection-end-line="184" />
+            <state relative-caret-position="646">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartShopAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+            <state relative-caret-position="952">
+              <caret line="70" column="47" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -473,6 +490,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductProperty.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TimeAndRandomTEST.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartShopAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartNewProduct.java" />
       </list>
     </option>
   </component>
@@ -482,11 +500,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="7" />
-    <option name="width" value="1875" />
-    <option name="height" value="1028" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="375" />
+    <option name="y" value="293" />
+    <option name="width" value="1473" />
+    <option name="height" value="684" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -494,8 +512,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -529,14 +545,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-repository" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535658505559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535960563798" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -559,7 +584,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.myLitecartShopAccount">
+  <component name="RunManager" selected="JUnit.myLitecartNewProduct">
     <configuration name="TimeAndRandomTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-example_test" />
       <extension name="coverage">
@@ -606,7 +631,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myLitecartMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="myLitecartNewProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-example_test" />
       <extension name="coverage">
         <pattern>
@@ -615,7 +640,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.myLitecartMenu" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.myLitecartNewProduct" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -665,19 +690,19 @@
     <list>
       <item itemvalue="JUnit.myLitecartCountriesAndZones" />
       <item itemvalue="JUnit.myLitecartLogin" />
-      <item itemvalue="JUnit.myLitecartMenu" />
       <item itemvalue="JUnit.myLitecartStickers" />
       <item itemvalue="JUnit.TimeAndRandomTEST" />
       <item itemvalue="JUnit.myLitecartProductProperty" />
       <item itemvalue="JUnit.myLitecartShopAccount" />
+      <item itemvalue="JUnit.myLitecartNewProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.myLitecartNewProduct" />
         <item itemvalue="JUnit.myLitecartShopAccount" />
         <item itemvalue="JUnit.TimeAndRandomTEST" />
         <item itemvalue="JUnit.myLitecartProductProperty" />
         <item itemvalue="JUnit.myLitecartStickers" />
-        <item itemvalue="JUnit.myLitecartMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -734,39 +759,46 @@
       <option name="project" value="LOCAL" />
       <updated>1535303098690</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Litecart Shop NEW Accout .">
+      <created>1535662197995</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535662197995</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 40m 42s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 00h 05m 42s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 41m 36s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 00h 08m 47s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 42m 42s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 10h 29m 03s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 43m 53s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 10h 31m 22s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 44m 16s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 10h 33m 23s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 44m 41s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 10h 36m 57s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 44m 56s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 10h 38m 00s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 45m 23s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 10h 38m 50s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 45m 41s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 10h 40m 44s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myLitecartShopAccount - 2018.08.30 at 23h 47m 56s.xml">
-      <configuration name="myLitecartShopAccount" configurationId="JUnit" />
+    <history-entry file="myLitecartNewProduct - 2018.09.03 at 10h 41m 32s.xml">
+      <configuration name="myLitecartNewProduct" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -779,7 +811,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="7" width="1875" height="1028" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -787,31 +819,62 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19449036" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18763326" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.22258954" side_tool="true" visible="true" weight="0.28635347" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.22814499" side_tool="true" weight="0.21137339" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.3529412" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.48507464" weight="0.3885135" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.4696162" weight="0.2725322" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3556818" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32906976" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.77741045" visible="true" weight="0.28635347" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.79283744" weight="0.4049217" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.771855" visible="true" weight="0.29828325" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.7771855" weight="0.6319742" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32956153" />
       <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5047106" side_tool="true" visible="true" weight="0.11953727" />
-      <window_info anchor="right" id="Gradle" order="1" weight="0.32953784" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.1048" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49528936" visible="true" weight="0.016528925" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49528936" weight="0.015977962" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24983256" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18763326" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.22814499" side_tool="true" visible="true" weight="0.21137339" />
+      <window_info anchor="bottom" id="Build" order="2" weight="0.3529412" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.4696162" weight="0.2725322" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.3556818" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32906976" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.771855" weight="0.55686694" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.7771855" weight="0.32939914" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32956153" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5047106" side_tool="true" visible="true" weight="0.11953727" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.1048" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49528936" weight="0.015977962" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24983256" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -834,7 +897,8 @@
     <MESSAGE value="Add class to Check Ducks stickers." />
     <MESSAGE value="Add class to Check Ducks stickers + OTHER BROWSERS." />
     <MESSAGE value="Bold price error fix," />
-    <option name="LAST_COMMIT_MESSAGE" value="Bold price error fix," />
+    <MESSAGE value="Litecart Shop NEW Accout ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Litecart Shop NEW Accout ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -905,9 +969,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartStickers.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartLogin.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstClass.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -927,17 +989,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        <state relative-caret-position="-2155">
+          <caret line="26" selection-start-line="24" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartShopAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        <state relative-caret-position="952">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartNewProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
