@@ -5,6 +5,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -49,7 +51,7 @@ public class myLitecartBasket {
         driver.get("http://localhost/litecart/");  // Open Shop page
         wait.until(presenceOfElementLocated(By.cssSelector("li[class ^= product]")));
 
-        
+
         //                                      ADD three products to BASKET :
 
         for (iq = 1; iq < 4; iq++) {    // 3 products add to basket
@@ -86,7 +88,7 @@ public class myLitecartBasket {
         //                                      DELETE ALL products from BASKET :
 
         // go to Basket :
-        driver.findElement(By.cssSelector("a[href $= checkout]")).click();
+        driver.findElement(By.cssSelector("a.link[href $= checkout]")).click();
         wait.until(presenceOfElementLocated(By.cssSelector("table[class = \"dataTable rounded-corners\"]")));
 
         // get number of rows in Summary table :
