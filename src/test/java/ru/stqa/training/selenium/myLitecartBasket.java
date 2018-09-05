@@ -31,6 +31,8 @@ public class myLitecartBasket {
         //driver = new InternetExplorerDriver();    // name = "internet explorer"
         //driver = new FirefoxDriver();   // name = "firefox"
 
+        //driver.manage().window().maximize();
+
         wait = new WebDriverWait(driver, 10);
 
         // Browser :

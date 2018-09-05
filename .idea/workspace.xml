@@ -95,59 +95,48 @@
     <session id="-548031425">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="18" />
+          <entry key="java" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7003" />
-          <entry key="txt" value="70" />
+          <entry key="java" value="7026" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7003" />
-          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="JAVA" value="7026" />
+          <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartBasket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -500,9 +489,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -540,6 +526,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -762,22 +751,17 @@
       <option name="project" value="LOCAL" />
       <updated>1536094865251</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Litecart Shop BASKET - add and delete items + fix for IE, FF .">
+      <created>1536167534702</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536167534704</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="myLitecartBasket - 2018.09.05 at 12h 46m 45s.xml">
-      <configuration name="myLitecartBasket" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartBasket - 2018.09.05 at 12h 47m 25s.xml">
-      <configuration name="myLitecartBasket" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartBasket - 2018.09.05 at 12h 49m 00s.xml">
-      <configuration name="myLitecartBasket" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartBasket - 2018.09.05 at 12h 50m 06s.xml">
-      <configuration name="myLitecartBasket" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="myLitecartBasket - 2018.09.05 at 20h 00m 06s.xml">
       <configuration name="myLitecartBasket" configurationId="JUnit" />
     </history-entry>
@@ -796,6 +780,18 @@
     <history-entry file="myLitecartBasket - 2018.09.05 at 20h 07m 04s.xml">
       <configuration name="myLitecartBasket" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="myLitecartBasket - 2018.09.05 at 20h 09m 19s.xml">
+      <configuration name="myLitecartBasket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartBasket - 2018.09.05 at 20h 09m 56s.xml">
+      <configuration name="myLitecartBasket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartBasket - 2018.09.05 at 20h 11m 58s.xml">
+      <configuration name="myLitecartBasket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartBasket - 2018.09.05 at 20h 21m 40s.xml">
+      <configuration name="myLitecartBasket" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -808,14 +804,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.31503198" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3219616" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.22814499" side_tool="true" weight="0.21137339" />
@@ -824,7 +819,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3556818" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32906976" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.771855" visible="true" weight="0.25643778" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.771855" weight="0.25643778" />
       <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.7771855" weight="0.52360517" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -896,7 +891,8 @@
     <MESSAGE value="Litecart Shop NEW Accout ." />
     <MESSAGE value="Litecart Shop NEW PRODUCT ." />
     <MESSAGE value="Litecart Shop BASKET - add and delete items ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Litecart Shop BASKET - add and delete items ." />
+    <MESSAGE value="Litecart Shop BASKET - add and delete items + fix for IE, FF ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Litecart Shop BASKET - add and delete items + fix for IE, FF ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1001,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1045,11 +1034,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartCountriesAndZones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
         </state>
       </provider>
     </entry>
