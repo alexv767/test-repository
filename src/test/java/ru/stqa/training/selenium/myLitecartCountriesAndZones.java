@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,9 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-import static javax.swing.text.html.CSS.getAttribute;
 import static org.junit.Assert.assertTrue;
-import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 public class myLitecartCountriesAndZones {
     private WebDriver driver;
@@ -24,31 +21,32 @@ public class myLitecartCountriesAndZones {
 
     @Before
     public void start() {
-        //driver = new ChromeDriver();
+        driver = new ChromeDriver();
         //driver = new InternetExplorerDriver();
-        driver = new FirefoxDriver();
+        //driver = new FirefoxDriver();
 
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 20);
     }
 
     @Test
     public void myFirstTest() {
         String countryText, prevText, zone, zoneName, zoneName2, prevZoneName, prevZoneName2, countryName;
         List <WebElement> content3, theRow, zone2, content5zone, zoneRows, zoneNames2;
-        WebElement leftPane, content1, content4, zonesLink, countryLink,zone1, zoneRow, country, zoneTable;
+        WebElement leftPane, countriesLink, content1, content4, zonesLink, countryLink,zone1, zoneRow, country, zoneTable;
         int bp, i, k, n, j, zonesNumber;
 
         driver.get("http://localhost/litecart/admin/");
 
         driver.findElement(By.name("username")).sendKeys("admin");      //LOGIN
         driver.findElement(By.name("password")).sendKeys("admin");
-        driver.findElement(By.name("password")).sendKeys(Keys.ENTER);
+        driver.findElement(By.name("login")).click();
 
         // *********************************    COUNTRIES PART :        *********************************
 
-        wait.until(presenceOfElementLocated(By.cssSelector("a[href *= countries]")));
-        //driver.get(driver.findElement(By.cssSelector("a[href *= \"countries\"]")).getAttribute("href"));
-        driver.findElement(By.cssSelector("a[href *= \"countries\"]")).click();
+        leftPane = driver.findElement(By.className("list-vertical"));   // Countries / Zones
+        countriesLink = leftPane.findElement(By.cssSelector("a[href='http://localhost/litecart/admin/?app=countries&doc=countries']"));
+        countriesLink.click();
+
         bp = 1; // just for breakpoint
 
         content1 = driver.findElement(By.className("dataTable"));
@@ -74,12 +72,8 @@ public class myLitecartCountriesAndZones {
 
             if (zone.compareTo("0") > 0) {          // zone string > 0 ?
 
-                //countryLink.click();
-
-                //driver.get(countryLink.getAttribute("href"));
                 countryLink.click();
 
-                wait.until(presenceOfElementLocated(By.cssSelector("#table-zones")));
                 zone1 = driver.findElement(By.cssSelector("#table-zones"));
                 zone2 = zone1.findElements(By.cssSelector("tr"));
                 k = zone2.size();
@@ -96,9 +90,9 @@ public class myLitecartCountriesAndZones {
 
                 // RESTORE COUNTRIES CONTENT :
 
-                wait.until(presenceOfElementLocated(By.cssSelector("a[href *= countries]")));
-                //driver.get(driver.findElement(By.cssSelector("a[href *= \"countries\"]")).getAttribute("href"));
-                driver.findElement(By.cssSelector("a[href *= \"countries\"]")).click();
+                leftPane = driver.findElement(By.className("list-vertical"));  // left manu pane
+                countriesLink = leftPane.findElement(By.cssSelector("a[href='http://localhost/litecart/admin/?app=countries&doc=countries']"));
+                countriesLink.click();
 
                 content1 = driver.findElement(By.className("dataTable"));
                 content3 = content1.findElements(By.className("row"));            //  Countries content
@@ -111,13 +105,9 @@ public class myLitecartCountriesAndZones {
 
         // ********************************************* ZONES PART :   *********************************
 
-//        leftPane = driver.findElement(By.className("list-vertical"));   // Countries / Zones
-//        zonesLink = leftPane.findElement(By.cssSelector("a[href='http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones']"));
-        wait.until(presenceOfElementLocated(By.cssSelector("a[href *= 'geo_zones']")));
-        driver.get(driver.findElement(By.cssSelector("a[href *= \"geo_zones\"]")).getAttribute("href"));
-
-
-//        zonesLink.click();
+        leftPane = driver.findElement(By.className("list-vertical"));   // Countries / Zones
+        zonesLink = leftPane.findElement(By.cssSelector("a[href='http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones']"));
+        zonesLink.click();
 
         content1 = driver.findElement(By.className("dataTable"));
         content3 = content1.findElements(By.className("row"));   // all rows
@@ -129,14 +119,11 @@ public class myLitecartCountriesAndZones {
             theRow = content4.findElements(By.cssSelector("a"));   // row elements
             country = theRow.get(0);    // country link
             countryName = country.getText();   // for debugging only
-            driver.get(country.getAttribute("href"));
-//            country.click();
+            country.click();
 
             bp = 1; // just for breakpoint
 
-            wait.until(presenceOfElementLocated(By.cssSelector("#table-zones")));
             zoneTable = driver.findElement(By.cssSelector("#table-zones"));
-            //zoneTable = driver.findElement(By.cssSelector("table.dataTable"));
             zoneRows = zoneTable.findElements(By.cssSelector("tr"));   // all rows
             k=zoneRows.size();
 
@@ -153,13 +140,9 @@ public class myLitecartCountriesAndZones {
 
             // RESTORE ZONES CONTENT :
 
-//            leftPane = driver.findElement(By.className("list-vertical"));   // Countries / Zones
-//            zonesLink = leftPane.findElement(By.cssSelector("a[href='http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones']"));
-//            zonesLink.click();
-
-            wait.until(presenceOfElementLocated(By.cssSelector("a[href *= 'geo_zones']")));
-            driver.get(driver.findElement(By.cssSelector("a[href *= \"geo_zones\"]")).getAttribute("href"));
-
+            leftPane = driver.findElement(By.className("list-vertical"));   // Countries / Zones
+            zonesLink = leftPane.findElement(By.cssSelector("a[href='http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones']"));
+            zonesLink.click();
 
             content1 = driver.findElement(By.className("dataTable"));
             content3 = content1.findElements(By.className("row"));   // all rows
