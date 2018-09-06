@@ -47,8 +47,8 @@ public class myLitecartCountriesAndZones {
         // *********************************    COUNTRIES PART :        *********************************
 
         wait.until(presenceOfElementLocated(By.cssSelector("a[href *= countries]")));
-        driver.get(driver.findElement(By.cssSelector("a[href *= \"countries\"]")).getAttribute("href"));
-
+        //driver.get(driver.findElement(By.cssSelector("a[href *= \"countries\"]")).getAttribute("href"));
+        driver.findElement(By.cssSelector("a[href *= \"countries\"]")).click();
         bp = 1; // just for breakpoint
 
         content1 = driver.findElement(By.className("dataTable"));
@@ -76,7 +76,8 @@ public class myLitecartCountriesAndZones {
 
                 //countryLink.click();
 
-                driver.get(countryLink.getAttribute("href"));
+                //driver.get(countryLink.getAttribute("href"));
+                countryLink.click();
 
                 wait.until(presenceOfElementLocated(By.cssSelector("#table-zones")));
                 zone1 = driver.findElement(By.cssSelector("#table-zones"));
@@ -96,7 +97,8 @@ public class myLitecartCountriesAndZones {
                 // RESTORE COUNTRIES CONTENT :
 
                 wait.until(presenceOfElementLocated(By.cssSelector("a[href *= countries]")));
-                driver.get(driver.findElement(By.cssSelector("a[href *= \"countries\"]")).getAttribute("href"));
+                //driver.get(driver.findElement(By.cssSelector("a[href *= \"countries\"]")).getAttribute("href"));
+                driver.findElement(By.cssSelector("a[href *= \"countries\"]")).click();
 
                 content1 = driver.findElement(By.className("dataTable"));
                 content3 = content1.findElements(By.className("row"));            //  Countries content
