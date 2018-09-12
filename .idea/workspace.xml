@@ -125,14 +125,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11645" />
-          <entry key="txt" value="228" />
+          <entry key="java" value="11685" />
+          <entry key="txt" value="245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11645" />
-          <entry key="PLAIN_TEXT" value="228" />
+          <entry key="JAVA" value="11685" />
+          <entry key="PLAIN_TEXT" value="245" />
         </counts>
       </usages-collector>
     </session>
@@ -199,8 +199,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductsLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -588,9 +588,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="722" />
-    <option name="y" value="8" />
-    <option name="width" value="1189" />
+    <option name="x" value="671" />
+    <option name="y" value="11" />
+    <option name="width" value="1201" />
     <option name="height" value="1034" />
   </component>
   <component name="ProjectView">
@@ -641,7 +641,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536778790928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536782405106" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -914,31 +914,17 @@
       <option name="project" value="LOCAL" />
       <updated>1536703085355</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Browser LOG with level &quot;ALL&quot;.">
+      <created>1536778849052</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1536778849052</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="myLitecartProductsLog - 2018.09.12 at 00h 39m 02s.xml">
-      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartProductsLog - 2018.09.12 at 00h 40m 34s.xml">
-      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartProductsLog - 2018.09.12 at 00h 41m 14s.xml">
-      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartProductsLog - 2018.09.12 at 00h 52m 31s.xml">
-      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartProductsLog - 2018.09.12 at 00h 53m 16s.xml">
-      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartProductsLog - 2018.09.12 at 00h 57m 09s.xml">
-      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="myLitecartProductsLog - 2018.09.12 at 21h 44m 58s.xml">
-      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="myLitecartProductsLog - 2018.09.12 at 21h 49m 42s.xml">
       <configuration name="myLitecartProductsLog" configurationId="JUnit" />
     </history-entry>
@@ -946,6 +932,27 @@
       <configuration name="myLitecartProductsLog" configurationId="JUnit" />
     </history-entry>
     <history-entry file="myLitecartProductsLog - 2018.09.12 at 21h 57m 41s.xml">
+      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartProductsLog - 2018.09.12 at 22h 04m 23s.xml">
+      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartProductsLog - 2018.09.12 at 22h 45m 23s.xml">
+      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartProductsLog - 2018.09.12 at 22h 45m 51s.xml">
+      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartProductsLog - 2018.09.12 at 22h 48m 34s.xml">
+      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartProductsLog - 2018.09.12 at 22h 54m 48s.xml">
+      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartProductsLog - 2018.09.12 at 22h 56m 59s.xml">
+      <configuration name="myLitecartProductsLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="myLitecartProductsLog - 2018.09.12 at 22h 58m 37s.xml">
       <configuration name="myLitecartProductsLog" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -959,15 +966,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="722" y="8" width="1189" height="1034" extended-state="0" />
-    <editor active="true" />
+    <frame x="671" y="11" width="1201" height="1034" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.28963685" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2865907" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.22814499" side_tool="true" weight="0.21137339" />
@@ -977,7 +983,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.18336484" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.771855" weight="0.47777778" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" sideWeight="0.7771855" visible="true" weight="0.44444445" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" sideWeight="0.7771855" visible="true" weight="0.34444445" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32956153" />
@@ -1057,7 +1063,8 @@
     <MESSAGE value="Open new window in browser." />
     <MESSAGE value="Open new windows in browser (final)." />
     <MESSAGE value="Browser LOG ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Browser LOG ." />
+    <MESSAGE value="Browser LOG with level &quot;ALL&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Browser LOG with level &quot;ALL&quot;." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,21 +1089,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductsLog.java</url>
-          <line>97</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductsLog.java</url>
-          <line>89</line>
+          <line>91</line>
           <properties />
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductsLog.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1257,8 +1258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/myLitecartProductsLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+        <state relative-caret-position="190">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

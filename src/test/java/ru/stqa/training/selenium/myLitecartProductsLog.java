@@ -33,11 +33,13 @@ public class myLitecartProductsLog {
         //driver = new FirefoxDriver();
 
         ChromeOptions options = new ChromeOptions();
+        //FirefoxOptions options = new FirefoxOptions();
 
         LoggingPreferences log = new LoggingPreferences();
         log.enable(LogType.BROWSER, Level.ALL);
         options.setCapability(CapabilityType.LOGGING_PREFS, log);
         driver = new ChromeDriver(options);
+        //driver = new FirefoxDriver(options);
 
         wait = new WebDriverWait(driver, 5);
     }
@@ -83,7 +85,7 @@ public class myLitecartProductsLog {
                 logsDr = driver.manage().logs().get("driver").getAll();
                 logsCl = driver.manage().logs().get("client").getAll();
 
-                for (LogEntry l : driver.manage().logs().get("browser").getAll()) {
+                for (LogEntry l : logsBr) {
                     System.out.println(l);
                 }
 
