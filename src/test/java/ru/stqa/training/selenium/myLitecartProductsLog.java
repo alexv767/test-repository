@@ -7,9 +7,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.logging.LoggingPreferences;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -24,8 +29,15 @@ public class myLitecartProductsLog {
 
     @Before
     public void start() {
-        driver = new ChromeDriver();
+        //driver = new ChromeDriver();
         //driver = new FirefoxDriver();
+
+        ChromeOptions options = new ChromeOptions();
+
+        LoggingPreferences log = new LoggingPreferences();
+        log.enable(LogType.BROWSER, Level.ALL);
+        options.setCapability(CapabilityType.LOGGING_PREFS, log);
+        driver = new ChromeDriver(options);
 
         wait = new WebDriverWait(driver, 5);
     }
@@ -37,6 +49,7 @@ public class myLitecartProductsLog {
 //        WebElement ;
         int bp;
 
+
         driver.get("http://localhost/litecart/admin/");
 
         driver.findElement(By.name("username")).sendKeys("admin");      //LOGIN
@@ -45,7 +58,8 @@ public class myLitecartProductsLog {
 
         // Products :
 
-        driver.navigate().to("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
+        //driver.navigate().to("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
+        driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
 
         rows = driver.findElements(By.cssSelector("tr.row"));   // all rows
 
@@ -63,7 +77,7 @@ public class myLitecartProductsLog {
 
                 System.out.println(driver.manage().logs().getAvailableLogTypes());
 
-                driver.manage().logs().get("browser").filter(Level.ALL);
+                //driver.manage().logs().get("browser").filter(Level.ALL);
 
                 logsBr = driver.manage().logs().get("browser").getAll();
                 logsDr = driver.manage().logs().get("driver").getAll();
