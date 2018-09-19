@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -20,6 +22,7 @@ public class myLitecartGrid {
     @Before
     public void start() throws Exception {
         URL rurl;
+        DesiredCapabilities caps;
 
         //driver = new ChromeDriver();
         //driver = new InternetExplorerDriver();
@@ -36,9 +39,13 @@ public class myLitecartGrid {
 //            return null;
 //        }
 
-        rurl = new URL("http://192.168.1.72:4444/wd/hub");
+        rurl = new URL("http://192.168.56.102:4444/wd/hub");
+        caps = DesiredCapabilities.firefox();
+        caps.setPlatform(Platform.LINUX);
+        //caps.setBrowserName("");
 
-        driver = new RemoteWebDriver( rurl, DesiredCapabilities.firefox());
+        driver = new RemoteWebDriver( rurl, caps);
+
 //URL
         //FirefoxOptions options = new FirefoxOptions().setLegacy(true);
         ////FirefoxOptions options = new FirefoxOptions();
@@ -59,7 +66,7 @@ public class myLitecartGrid {
     @Test
     public void myFirstTest() {
 
-        driver.get("http://selenium2.ru/");
+        //driver.get("http://selenium2.ru/");
 
 
         bp = 1; // just for breakpoint :)
